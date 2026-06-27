@@ -1,0 +1,21 @@
+{
+    "name": "boxphp/redis",
+    "description": "BoxPHP Redis - Connection, Pool, Service Provider",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BoxPHP\\Redis\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "boxphp/core": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        }
+    ]
+}
